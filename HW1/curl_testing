@@ -1,0 +1,2 @@
+curl   -H 'Content-Type: application/json'    -X POST 'http://127.0.0.1:8000/predict_item' -d@cars_test.json
+curl -X POST -H 'Content-Type: text/csv' -d @many_cars_test.csv http://127.0.0.1:8000/predict_items
